@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="로그인 페이지 생성">
+    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="jsp database beans 생성">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-j-9.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -61,21 +66,25 @@
     "Tomcat Server.Tomcat 11.0.2.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tjrqo/Desktop/Code/JAVA/JSP/JSP-Advanced-Development-Tutorial/BBS",
+    "last_opened_file_path": "C:/Users/tjrqo/Desktop/Code/JAVA/JSP/JSP-Advanced-Development-Tutorial/BBS/src/main/webapp/WEB-INF/lib/mysql-connector-j-9.2.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tjrqo\Desktop\Code\JAVA\JSP\JSP-Advanced-Development-Tutorial\BBS\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\Users\tjrqo\Desktop\Code\JAVA\JSP\JSP-Advanced-Development-Tutorial\BBS\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.2">
     <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="BBS:war exploded">
@@ -92,6 +101,54 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58619" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -123,7 +180,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -150,7 +209,8 @@
       <workItem from="1736908032565" duration="902000" />
       <workItem from="1736992858645" duration="4450000" />
       <workItem from="1737340878416" duration="1525000" />
-      <workItem from="1737444387847" duration="1650000" />
+      <workItem from="1737444387847" duration="2546000" />
+      <workItem from="1737529218511" duration="2576000" />
     </task>
     <task id="LOCAL-00001" summary="init JSP project">
       <option name="closed" value="true" />
@@ -176,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736996689223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mysql 데이터베이스 생성">
+      <option name="closed" value="true" />
+      <created>1737446297117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737446297117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jsp database beans 생성">
+      <option name="closed" value="true" />
+      <created>1737446316740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737446316740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +273,8 @@
     <MESSAGE value="init JSP project" />
     <MESSAGE value="add bootstrap" />
     <MESSAGE value="로그인 페이지 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 페이지 생성" />
+    <MESSAGE value="mysql 데이터베이스 생성" />
+    <MESSAGE value="jsp database beans 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp database beans 생성" />
   </component>
 </project>
