@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="database 연결 확인 &amp; 로그인 로직 테스트">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/join.jsp" afterDir="false" />
+    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="회원가입 폼 생성">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     "Tomcat Server.Tomcat 11.0.2.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tjrqo/Desktop/Code/JAVA/JSP/JSP-Advanced-Development-Tutorial/BBS",
+    "last_opened_file_path": "C:/Users/tjrqo/Desktop/Code/JAVA/JSP/JSP-Advanced-Development-Tutorial/BBS/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,8 +83,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tjrqo\Desktop\Code\JAVA\JSP\JSP-Advanced-Development-Tutorial\BBS\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\Users\tjrqo\Desktop\Code\JAVA\JSP\JSP-Advanced-Development-Tutorial\BBS\src\main\webapp" />
+      <recent name="C:\Users\tjrqo\Desktop\Code\JAVA\JSP\JSP-Advanced-Development-Tutorial\BBS\src\main\webapp\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 11.0.2">
@@ -214,7 +214,7 @@
       <workItem from="1737340878416" duration="1525000" />
       <workItem from="1737444387847" duration="2546000" />
       <workItem from="1737529218511" duration="2834000" />
-      <workItem from="1737598273089" duration="501000" />
+      <workItem from="1737598273089" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="init JSP project">
       <option name="closed" value="true" />
@@ -264,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737531905073</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="회원가입 폼 생성">
+      <option name="closed" value="true" />
+      <created>1737598946521</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737598946521</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +296,7 @@
     <MESSAGE value="mysql 데이터베이스 생성" />
     <MESSAGE value="jsp database beans 생성" />
     <MESSAGE value="database 연결 확인 &amp; 로그인 로직 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="database 연결 확인 &amp; 로그인 로직 테스트" />
+    <MESSAGE value="회원가입 폼 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원가입 폼 생성" />
   </component>
 </project>
