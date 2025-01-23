@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="회원가입 폼 생성">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/joinAction.jsp" afterDir="false" />
+    <list default="true" id="eef29c76-5900-49ec-8c7b-9bbda71ce2c0" name="Changes" comment="회원가입 구현">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logoutAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/joinAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginAction.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +217,7 @@
       <workItem from="1737340878416" duration="1525000" />
       <workItem from="1737444387847" duration="2546000" />
       <workItem from="1737529218511" duration="2834000" />
-      <workItem from="1737598273089" duration="1981000" />
+      <workItem from="1737598273089" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="init JSP project">
       <option name="closed" value="true" />
@@ -272,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737598946521</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="회원가입 구현">
+      <option name="closed" value="true" />
+      <created>1737600321479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737600321479</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +308,7 @@
     <MESSAGE value="jsp database beans 생성" />
     <MESSAGE value="database 연결 확인 &amp; 로그인 로직 테스트" />
     <MESSAGE value="회원가입 폼 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원가입 폼 생성" />
+    <MESSAGE value="회원가입 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원가입 구현" />
   </component>
 </project>
