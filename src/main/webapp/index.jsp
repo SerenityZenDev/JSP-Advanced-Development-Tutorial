@@ -3,6 +3,8 @@
 <html>
 <head>
   <title>JSP 게시판 웹 사이트</title>
+      <link rel="stylesheet" href="css/custom.css">
+
 </head>
 <body>
   <script>
